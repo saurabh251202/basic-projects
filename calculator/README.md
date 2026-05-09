@@ -9,7 +9,7 @@ It supports **light & dark themes**, smooth UI interactions, and works perfectly
 
 | ☀️ Light Mode | 🌙 Dark Mode |
 |------------|------------|
-| ![Screenshot 1](calculator/images/image2.png) | ![Screenshot 2](calculator/images/image.png) |
+| ![Screenshot 1](images/image2.png) | ![Screenshot 2](images/image.png) |
 
 ---
 
