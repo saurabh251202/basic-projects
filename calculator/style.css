@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1), rgba(210, 53, 165));
+}
+
+/* container */
+
+.container {
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* calculator box */
+
+.calculator {
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 30px #000;
+}
+
+/* theme toggler button */
+
+.theme-toggler {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.theme-toggler.active {
+    color: #333;
+}
+
+.theme-toggler.active::before {
+    background-color: #fff;
+}
+
+.theme-toggler::before {
+    content: ' ';
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    border-radius: 50%;
+    background-color: #333;
+    z-index: -1;
+}
+
+/* output screen */
+
+.display {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: right;
+    outline: none;
+    border: none;
+    pointer-events: none;
+    border-radius: 12px;
+    padding-right: 10px;
+    background: none;
+}
+
+/* all buttons */
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.buttons button:active {
+    transform: scale(1.1);
+}
+
+/* light theme */
+
+.calculator {
+    background-color: #fff;
+}
+
+.calculator .display {
+    color: #0a1e23;
+}
+
+.calculator .operator {
+    background-color: #ffd5d8;
+    color: #fc4552;
+}
+
+.calculator button {
+    background-color: #c3eaff;
+    color: #000;
+}
+
+/* dark theme */
+
+.calculator.dark {
+    background-color: #071115;
+}
+
+.calculator.dark .display {
+    color: #f8fafd;
+}
+
+.calculator.dark .operator {
+    background-color: #2e1f39;
+    color: #aa00a4;
+}
+
+.calculator.dark button {
+    background-color: #1b2f38;
+    color: #f8fafb;
+}
+
+/* Responsiveness */
+
+@media (max-width: 400px) {
+
+    .container {
+        width: 90%;
+    }
+}
