@@ -1,6 +1,6 @@
 # 🖩 Responsive Calculator with Light & Dark Theme  
 
-A modern, responsive, and user-friendly calculator built using **HTML, CSS, and JavaScript**.
+A modern, responsive, and user-friendly calculator built using **HTML, CSS, and JavaScript**.  
 It supports **light & dark themes**, smooth UI interactions, and works perfectly across **all devices**.
 
 ---
@@ -9,7 +9,7 @@ It supports **light & dark themes**, smooth UI interactions, and works perfectly
 
 | ☀️ Light Mode | 🌙 Dark Mode |
 |------------|------------|
-| ![Screenshot 1](images/Screenshot/image2.png) | ![Screenshot 2](images/Screenshot/image.png) |
+| ![Screenshot 1](calculator/images/image2.png) | ![Screenshot 2](calculator/images/image.png) |
 
 ---
 
@@ -47,6 +47,6 @@ The project is live and can be played here: [View Live Calculator](https://tonys
 3️⃣ Use **"C"** to clear the display and **"DEL"** to remove the last entry.  
 4️⃣ Click the **theme toggle button** in the top-right corner to switch between light & dark modes.  
 
+---
 
-
-Enjoy using the **Responsive Calculator**! 🖩✨  
+Enjoy using the **Responsive Calculator**! 🖩✨
